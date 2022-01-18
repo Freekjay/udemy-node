@@ -22,6 +22,13 @@ const addNote = (title, body) => {
     // const duplicateNotes = notes.filter((note) => note.title === title)
     const duplicateNote = notes.find((note) => note.title === title)
 
+    //debugger doesn't stop the debug in chrome anymore due to changes in the debugger
+    //solution https://github.com/ChromeDevTools/devtools-protocol/issues/85
+    //start debugger: node inspect app.js add --title='Inspect test' --body='list 123'  
+    //to start debugger again: restart
+
+    debugger
+
     if (!duplicateNote) {
         notes.push({
             title: title,
