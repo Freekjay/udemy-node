@@ -34,4 +34,3 @@ const getWeather = () => {
 }
 
 getLatLong()
-
