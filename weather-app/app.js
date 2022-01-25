@@ -6,7 +6,7 @@ const inputLocation = process.argv[2]
 if (!inputLocation) {
     console.log('Provide a location as parameter');
 } else {
-    geoCode('Hasselt, Belgium', (error, {location, latitude, longtitude}) => {
+    geoCode('Hasselt, Belgium', (error, {location, latitude, longtitude} = {}) => {
         if (error) {
             return console.log(error);
         }

@@ -1,4 +1,4 @@
-const request = require('request')
+const request = require('postman-request')
 const fs = require('fs')
 
 const weatherstackApiKey = fs.readFileSync('weatherstack-api-key.txt').toString()
