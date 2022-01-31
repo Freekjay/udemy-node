@@ -2,4 +2,3 @@ weather-app/node_modules
 playground/node_modules
 note-taking-app/node_modules
 *.txt
-package-lock.json
